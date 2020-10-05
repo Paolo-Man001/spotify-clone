@@ -5,8 +5,16 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "gray-spotify": {
+          700: "#282828",
+          800: "#181818",
+          900: "#121212",
+        },
+      },
+    },
   },
   variants: {},
   plugins: [],
-}
+};
