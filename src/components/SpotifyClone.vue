@@ -59,26 +59,47 @@
             </a>
           </li>
         </ul>
-        <div class="overflow-y-auto sidebar-spotify">
-          <h1>Middle</h1>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi nemo eaque similique
-          reprehenderit, rem labore iure corporis, perferendis beatae praesentium, unde debitis
-          numquam laboriosam ullam perspiciatis pariatur facere dolores tenetur cupiditate nihil at
-          ipsam. Fugiat quos molestias error nulla nesciunt delectus amet minima labore! Omnis
-          asperiores voluptatum aliquid beatae maiores perspiciatis aut itaque, officia, ex, sed
-          reiciendis velit labore ipsum a quam at numquam esse eligendi eum! Facere voluptatibus
-          suscipit expedita iusto dolores recusandae ab beatae commodi numquam? Molestiae aspernatur
-          maiores impedit consectetur natus voluptatum voluptas at expedita laudantium. Lorem ipsum
-          dolor sit, amet consectetur adipisicing elit. Eligendi nemo eaque similique reprehenderit,
-          rem labore iure corporis, perferendis beatae praesentium, unde debitis numquam laboriosam
-          ullam perspiciatis pariatur facere dolores tenetur cupiditate nihil at ipsam. Fugiat quos
-          molestias error nulla nesciunt delectus amet minima labore! Omnis asperiores voluptatum
-          aliquid beatae maiores perspiciatis aut itaque, officia, ex, sed reiciendis velit labore
-          ipsum a quam at numquam esse eligendi eum! Facere voluptatibus suscipit expedita iusto
-          dolores recusandae ab beatae commodi numquam? Molestiae aspernatur maiores impedit
-          consectetur natus voluptatum voluptas at expedita laudantium.
+        <div class="sidebar-spotify overflow-y-auto px-5 mt-2">
+          <h3 class="uppercase tracking-widest text-gray-500 font-normal text-xs">Your Library</h3>
+          <ul class="leading-extra-loose mb-6">
+            <li class="truncate"><a href="" class="hover:text-white">Made for You</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Recently Played</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Liked Songs</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Albums</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Artists</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Podcasts</a></li>
+          </ul>
+          <h3 class="uppercase tracking-widest text-gray-500 font-normal text-xs">Playlists</h3>
+          <ul class="leading-extra-loose mb-6">
+            <li class="truncate"><a href="" class="hover:text-white">Acoustic Hits</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Acoustic Covers</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">90s Acoustics</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Blues</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Hip-Hop</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Unwind 00s</a></li>
+            <li class="truncate"><a href="" class="hover:text-white">Coffee Break Spanish</a></li>
+            <li class="truncate">
+              <a href="" class="hover:text-white">Fragmented - The Software Podcast</a>
+            </li>
+          </ul>
         </div>
-        <div>three</div>
+        <div class="border-t border-gray-800 h-16 px-5 py-3 flex items-center group">
+          <svg
+            class="w-6 text-gray-500 group-hover:text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+            ></path>
+          </svg>
+          <a href="#" class="font-normal text-gray-500 ml-2 group-hover:text-white">New Playlist</a>
+        </div>
       </div>
       <!-- Content-Area -->
       <div class="content-spotify bg-gray-spotify-800 flex-1 overflow-y-auto">

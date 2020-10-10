@@ -13,6 +13,9 @@ module.exports = {
           900: "#121212",
         },
       },
+      lineHeight:{
+        'extra-loose':'2.5'
+      },
     },
   },
   variants: {
